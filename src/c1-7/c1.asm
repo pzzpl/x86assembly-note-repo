@@ -1,0 +1,7 @@
+mov ax ,0x12
+mov bx ,0x13
+add ax ,bx
+
+times 502 db 0
+db 0x55
+db 0xaa
